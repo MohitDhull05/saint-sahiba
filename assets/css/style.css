@@ -150,8 +150,7 @@ section {
 
 .ligula {
     padding: 24px 24px;
-    border: 1px solid;
-    border-image-source: linear-gradient(95.21deg, rgba(255, 255, 255, 0.2) -0.59%, rgba(255, 255, 255, 0.092) 106.99%);
+    border: 1px solid white;
     backdrop-filter: blur(32px)
 }
 
@@ -171,10 +170,15 @@ section {
     line-height: 32.4px;
     text-align: left;
     color: white;
+    opacity: 70% !important;
 }
 
 .mt-24 {
     margin-top: 24px;
+}
+
+.mt-32{
+    margin-top: 32px;
 }
 
 .blur {
@@ -190,8 +194,7 @@ section {
     max-width: 565px;
 }
 
-.pt-59
-{
+.pt-59 {
     padding-top: 59px;
 }
 
