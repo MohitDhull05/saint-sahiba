@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url(./root.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.layer {
+    width: 100%;
+    background: #000000BF;
+    backdrop-filter: blur(16px)
+}
+
+.menu-lines {
+    width: 30px;
+    height: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    transition: all 300ms linear;
+    transform-origin: left;
+    border-radius: 10px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.rotate40 {
+    transform: rotate(42deg);
+}
+
+.z-5 {
+    z-index: 5;
+}
+
+.rotate-45 {
+    transform: rotate(-43deg);
+}
+
+.gap-32 {
+    gap: 32px;
+}
+
+.button-1 button:hover {
+    background-color: var(--sec);
+    color: var(--null);
+}
+
+
+.navbar-link {
+    font-family: var(--poppins);
+    font-size: var(--fs-lg);
+    font-weight: 400;
+    color: var(--dark);
+}
+
+.navbar-link:hover {
+    color: var(--sec);
+    -webkit-text-stroke: 1px var(--sec);
+}
+
+.button-1 {
+    font-family: "Poppins", serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32.4px;
+    text-align: left;
+    color: white;
+    background: linear-gradient(90deg, #FFA800 0%, #F06500 100%);
+    padding: 7px 23px;
+    border-radius: 23.5px;
+    gap: 10px;
+    border: 0px;
+}
+
+.button-1:hover {
+    color: white;
+    background: linear-gradient(90deg, #886621 0%, #9e4d12 100%);
+}
+
+.mt-27 {
+    margin-top: 27px;
+}
+
+.mb-27 {
+    margin-bottom: 27px;
+}
+
+.bg-img {
+    background-image: url(/image/png/Component\ 5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.heading {
+    max-width: 660px;
+    font-family: "Poppins", serif;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 95.52px;
+    text-align: left;
+    color: white;
+}
+
+.para {
+    max-width: 660px;
+    font-family: "Poppins", serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: left;
+    color: white;
+}
+
+.button {
+    font-family: "poppins", serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    text-align: left;
+    color: white;
+    background: linear-gradient(90deg, #FFA800 0%, #F06500 100%);
+    border-radius: 33px;
+    border: 0px;
+    padding: 12px 32px;
+}
+
+.button:hover {
+    color: white;
+    background: linear-gradient(90deg, #6e4d0b 0%, #994c15 100%);
+}
+
+.bg-shadow {
+    background-color: #0C0B0B;
+}
+
+.ligula {
+    padding: 24px 24px;
+    border: 1px solid;
+    border-image-source: linear-gradient(95.21deg, rgba(255, 255, 255, 0.2) -0.59%, rgba(255, 255, 255, 0.092) 106.99%);
+    backdrop-filter: blur(32px)
+}
+
+.head {
+    font-family: "Poppins", serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 61.44px;
+    text-align: left;
+    color: white;
+}
+
+.urna-dictum {
+    font-family: "Poppins", serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    text-align: left;
+    color: white;
+}
+
+.mt-24 {
+    margin-top: 24px;
+}
+
+.blur {
+    background-image: url(/image/png/Ellipse\ 7.png);
+    background-image: url(/image/png/Ellipse\ 6.png);
+}
+
+.taddy {
+    bottom: 0;
+}
+
+.max-w-565 {
+    max-width: 565px;
+}
+
+.pt-59
+{
+    padding-top: 59px;
+}
+
+@media (max-width:991.98px) {
+    .nav-link {
+        display: flex !important;
+        flex-direction: column;
+        width: 100%;
+        min-height: 100vh;
+        position: fixed;
+        justify-content: center;
+        bottom: 0;
+        right: -100% !important;
+        top: 0%;
+        background-color: black !important;
+        transition: all 300ms linear !important;
+        z-index: 5;
+        backdrop-filter: blur(100px);
+    }
+
+    .show-navbar {
+        right: 0 !important;
+    }
+
+    .menu-btn {
+        display: block;
+        z-index: 1;
+    }
+
+    .min-500 {
+        min-height: 500px;
+    }
+
+    .section-headings {
+        font-size: var(--fs-3xl);
+    }
+
+}
