@@ -4,37 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/image/png/image-1.png" type="image/x-icon">
+    <title>SaintShiba Page</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 
-<body>
-    <section class="bg-img flex-column d-flex overflow-hidden">
-        <nav class="py-23 w-100 nav-bg-blur layer">
-            <div class="container max-w-1320 mt-27 mb-27">
+<body class="bg-raven">
+    <header class="bg-img min-vh-100 d-flex justify-content-center align-items-center flex-column">
+        <nav class="py-23 w-100 nav-bg-blur">
+            <div class="container max-w-1320">
                 <div class="d-flex align-items-center justify-content-between w-100">
-                    <a class="text-decoration-none " href="#"><img src="image/png/SaintShiba.png" alt=""></a>
+                    <a class="text-decoration-none font-poppins text-lg fw-normal lh-54 text-white" href="#">Saint<span
+                            class="color-royal-flycatcher-crest">Shiba</span></a>
                     <ul id="name"
                         class="d-flex mb-0 align-items-center gap-32 nav-link list-unstyled justify-content-center">
-                        <li><a class="text-decoration-none navbar-link text-white poppins-font fw-normal fs-md"
+                        <li><a class="text-decoration-none navbar-link font-poppins text-sm fw-normal lh-32 text-white"
                                 href="#">Home</a>
                         </li>
-                        <li><a class="text-decoration-none navbar-link text-white poppins-font fw-normal fs-md"
+                        <li><a class="text-decoration-none navbar-link font-poppins text-sm fw-normal lh-32 text-white"
                                 href="#">About</a>
                         </li>
-                        <li><a class="text-decoration-none navbar-link text-white poppins-font fw-normal fs-md"
+                        <li><a class="text-decoration-none navbar-link font-poppins text-sm fw-normal lh-32 text-white"
                                 href="#">Tokenomics</a></li>
-                        <li><a class="text-decoration-none navbar-link text-white poppins-font fw-normal fs-md"
+                        <li><a class="text-decoration-none navbar-link font-poppins text-sm fw-normal lh-32 text-white"
                                 href="#">How to buy</a>
                         </li>
-                        <li><a class="text-decoration-none navbar-link text-white poppins-font fw-normal fs-md"
+                        <li><a class="text-decoration-none navbar-link font-poppins text-sm fw-normal lh-32 text-white"
                                 href="#">FAQ</a>
                         </li>
-                        <button
-                            class="button-1 text-white poppins-font fw-semibold fs-md lh-1 text-decoration-none">Connect
-                            Wallet</button>
+                        <li><button class="btn-1 font-poppins fw-semibold text-sm lh-32 text-white">Connect
+                                Wallet</button></li>
                     </ul>
                     <div onclick="navbarbtn()" class="z-5 d-lg-none cursor-pointer">
                         <span class="menu-lines bg-light" id="rotates"></span>
@@ -44,79 +45,474 @@
                 </div>
             </div>
         </nav>
-        <div class="container mx-1320">
-            <div class="row pt-59 justify-content-between align-items-center">
-                <div class="col-12 col-lg-6">
-                    <h1 class="heading">Accumsan ut orci vitae</h1>
-                    <p class="para">Velit eget sit nibh fringilla risus
-                        ullamcorper
-                        malesuada. Morbi nulla suscipit dolor, volutpat
-                        quam at urna donec rutrum. In vulputate congue arcu in et.</p>
-                    <button class="button border-0 text-white fs-md lh-32 fw-600 popins-family mt-4">Connect
-                        Wallet</button>
+        <div class="flex-grow-1 d-flex justify-content-center align-items-center">
+            <div class="container max-w-1320">
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-6">
+                        <div class="d-flex justify-content-center justify-content-lg-start text-center text-lg-start">
+                            <h1 class="font-poppins fw-bold text-2xl lh-95 max-w-660 text-white mb-0">Accumsan ut orci
+                                vitae
+                            </h1>
+                        </div>
+                        <div class="d-flex justify-content-center justify-content-lg-start text-center text-lg-start">
+                            <p class="font-poppins fw-normal text-base lh-33 text-white mt-4 mb-0">Velit eget sit nibh
+                                fringilla risus ullamcorper malesuada. Morbi nulla suscipit dolor,
+                                volutpat quam at urna donec rutrum. In vulputate congue arcu in et.</p>
+                        </div>
+                        <div class="d-flex justify-content-center justify-content-lg-start">
+                            <button class="btn-2 font-poppins fw-semibold text-base lh-33 text-white mt-50">Connect
+                                Wallet</button>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 mt-59">
+                        <img class="w-100" src="image/png/image-1.png" alt="image-1">
+                    </div>
                 </div>
-                <div class="col-12 col-lg-6">
-                    <img class="w-100 max-w-565" src="/image/png/image 1.png" alt="main-img">
-                </div>
-            </div>
-            <div class="ligula">
-                <h2 class="head">Cursus ligula habitant sed integer.</h2>
-                <p class="urna-dictum mt-24">Urna, dictum volutpat augue tortor. Fermentum vulputate convallis viverra
-                    facilisis.
-                    Aliquam porttitor sem rhoncus rhoncus, quis. Arcu, ut enim eget pellentesque neque. Nibh
-                    pellentesque
-                    lobortis etiam sed. Cursus donec porttitor fames tellus. At ut donec nec aliquet ipsum leo tellus
-                    amet
-                    lacus. Varius mi urna blandit id magna tellus imperdiet tortor. Volutpat nec vulputate diam
-                    tristique
-                    facilisi in turpis vel elit.</p>
-                <p class="urna-dictum">Urna, dictum volutpat augue tortor. Fermentum vulputate convallis viverra
-                    facilisis.
-                    Aliquam porttitor sem rhoncus rhoncus, quis. Arcu, ut enim eget pellentesque neque. Nibh
-                    pellentesque
-                    lobortis etiam sed. Cursus donec porttitor fames tellus. At ut donec nec aliquet ipsum leo tellus
-                    amet
-                    lacus. Varius mi urna blandit id magna tellus imperdiet tortor. Volutpat nec vulputate diam
-                    tristique
-                    facilisi in turpis vel elit.</p>
             </div>
         </div>
-    </section>
-    <section class="bg-shadow">
-        <div class="container">
-            <div class="row justify-content-between align-items-center">
-                <div class="col-12 col-lg-7">
-                    <div class="head">Cursus ligula habitant sed integer.</div>
-                    <p class="urna-dictum mt-24">Urna, dictum volutpat augue tortor. Fermentum vulputate convallis viverra
-                        facilisis.
-                        Aliquam porttitor sem rhoncus rhoncus, quis. Arcu, ut enim eget pellentesque neque. Nibh
-                        pellentesque
+    </header>
+  
+    <section class="position-relative">
+        <div class="container max-w-1320">
+            <div class="box">
+                <div class="d-flex justify-content-center justify-content-lg-start text-center text-lg-start">
+                    <h2 class="font-poppins fw-semibold text-xl lh-61 text-white mb-4">Cursus ligula habitant sed
+                        integer.
+                    </h2>
+                </div>
+                <div class="d-flex justify-content-center justify-content-lg-start text-center text-lg-start">
+                    <p class="font-poppins fw-normal text-sm lh-32 text-white opacity-70">Urna, dictum volutpat augue
+                        tortor. Fermentum vulputate convallis viverra facilisis. Aliquam porttitor sem rhoncus rhoncus,
+                        quis. Arcu, ut enim eget pellentesque neque. Nibh pellentesque lobortis etiam sed. Cursus donec
+                        porttitor fames tellus. At ut donec nec aliquet ipsum leo tellus amet lacus. Varius mi urna
+                        blandit id magna tellus imperdiet tortor. Volutpat nec vulputate diam tristique facilisi
+                        in turpis vel elit.</p>
+                </div>
+                <div class="d-flex justify-content-center justify-content-lg-start text-center text-lg-start">
+                    <p class="font-poppins fw-normal text-sm lh-32 text-white opacity-70 mb-4">Urna, dictum volutpat
+                        augue tortor. Fermentum vulputate convallis viverra facilisis. Aliquam
+                        porttitor sem rhoncus rhoncus, quis. Arcu, ut enim eget pellentesque neque. Nibh pellentesque
                         lobortis etiam sed. Cursus donec porttitor fames tellus. At ut donec nec aliquet ipsum leo
-                        tellus
-                        amet
-                        lacus. Varius mi urna blandit id magna tellus imperdiet tortor. Volutpat nec vulputate diam
-                        tristique
-                        facilisi in turpis vel elit.</p>
-                    <button class="button-1 border-0 text-white fs-md lh-32 fw-600 popins-family mt-32">Learn more</button>
+                        tellus amet lacus. Varius mi urna blandit id magna tellus imperdiet tortor.
+                        Volutpat nec vulputate diam tristique facilisi in turpis vel elit.</p>
                 </div>
-                <div class="col-12 col-lg-5 blur">
-                    <img class="taddy w-100 max-w-565" src="image/png/image 1.png" alt="">
+            </div>
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6 mt-2 43">
+                    <div class="d-flex justify-content-center justify-content-lg-start text-center text-lg-start">
+                        <h2 class="font-poppins fw-semibold text-xl lh-61 text-white mb-4">Cursus ligula habitant sed
+                            integer.
+                        </h2>
+                    </div>
+                    <div class="d-flex justify-content-center justify-content-lg-start text-center text-lg-start">
+                        <p class="font-poppins fwnomral text-sm lh-32 text-white opacity-70 mb-32">Urna, dictum volutpat
+                            augue tortor. Fermentum vulputate convallis viverra facilisis. Aliquam
+                            porttitor sem rhoncus rhoncus, quis. Arcu, ut enim eget pellentesque neque. Nibh
+                            pellentesque lobortis etiam sed. Cursus donec porttitor fames tellus.
+                        </p>
+                    </div>
+                    <div class="d-flex justify-content-center justify-content-lg-start text-center text-lg-start">
+                        <button class="btn-1 font-poppins fw-semibold text-sm lh-32 text-white">Learn more</button>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 mt -59">
+                    <img class="w-100" src="/image/png/section-2-img.png" alt="section-2-img">
+                </div>
+            </div>
+            <img class="position-absolute img-1" src="/image/svg/left-img.svg" alt="left-img">
+            <img class="position-absolute img-2" src="/image/svg/right-image.svg" alt="right-image">
+        </div>
+    </section>
+    
+    <section class="bg-siyah-black h-812 justify-content-center align-items-center position-relative d-flex">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="d-flex justify-content-center justify-content-lg-start text-center text-lg-start">
+                        <p class="font-poppins fw-semibold text-lg lh-61 text-white">How to Buy</p>
+                    </div>
+                    <div class="d-flex justify-content-center justify-content-lg-start text-center text-lg-start">
+                        <p class="font-poppins fw-nomral text-sm lh-32 mx-660 text-white opacity-70 mt-4 mb-0">Urna,
+                            dictum
+                            volutpat augue tortor. Fermentum vulputate convallis viverra facilisis. Aliquam porttitor
+                            sem
+                            rhoncus rhoncus, quis. Arcu, ut enim eget pellentesque neque. Nibh pellentesque lobortis
+                            etiam
+                            sed. Cursus donec porttitor fames tellus.
+                        </p>
+                    </div>
+                    <div class="d-flex align-items-center mb-3 btn-3 pt-0 pb-0 mt-5">
+                        <div class="number-2 font-poppins text-base lh-33">1</div>
+                        <div class="align-items-center pl-23">
+                            <div class="font-poppins fw-semibold text-base lh-33 text-white text-start mt-13 mb-0">Cras
+                                nunc libero ac</div>
+                            <div class="font-poppins fw-nomral text-sm lh-32 text-white opacity-70 mb-14">Amet, integer
+                                et ultrices non viverra dolor dui</div>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center btn-3 mb-3 pt-0 pb-0">
+                        <div class="number-2 font-poppins text-base lh-33">2</div>
+                        <div class="align-items-center pl-23">
+                            <div class="font-poppins fw-semibold text-base lh-33 text-white text-start mt-13 mb-0">Cras
+                                nunc libero ac</div>
+                            <div class="font-poppins fw-nomral text-sm lh-32 text-white opacity-70 mb-14">Amet, integer
+                                et ultrices non viverra dolor dui</div>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center btn-3 pt-0 pb-0">
+                        <div class="number-2 font-poppins text-base lh-33">3</div>
+                        <div class="align-items-center pl-23">
+                            <div class="font-poppins fw-semibold text-base lh-33 text-white text-start mt-13 mb-0">Cras
+                                nunc libero ac</div>
+                            <div class="font-poppins fw-nomral text-sm lh-32 text-white opacity-70 mb-14">Amet, integer
+                                et ultrices non viverra dolor dui</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <img class="overflow-img mt-4 mt-lg-0 pt-78" src="/image/png/overflow-img.png" alt="overflow-img">
                 </div>
             </div>
         </div>
     </section>
+   
+    <section>
+        <div class="container max-w-1320 w-100">
+            <h1 class="font-poppins fw-semibold text-xl lh-61 text-white text-center mb-32 mt-62">Tokenomics</h1>
+            <div class="row mb-4">
+                <div class=" col-12 col-sm-6 col-lg-4 mb-4">
+                    <div class="card-1 justify-content-between">
+                        <p class="font-poppins fw-normal text-base lh-33 text-white">Liquidity</p>
+                        <div class="d-flex mt-3 justify-content-between">
+                            <div class="parent">
+                                <p class="font-poppins fw-normal text-very-small lh-25 text-white">When Buying</p>
+                                <h2 class="number font-poppins fw-semibold text-md lh-42 color-royal-flycatcher-crest">
+                                    3.5%</h2>
+                            </div>
+                            <div class="parent">
+                                <p class="font-poppins fw-normal text-very-small lh-25 text-white">When Selling</p>
+                                <h2 class="number font-poppins fw-semibold text-md lh-42 text-white">3.5%</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 mb-4">
+                    <div class="card-1">
+                        <p class="font-poppins fw-normal text-base lh-33 text-white">Marketing</p>
+                        <div class="d-flex mt-3 justify-content-between">
+                            <div class="parent">
+                                <p class="font-poppins fw-normal text-very-small lh-25 text-white">When Buying</p>
+                                <h2 class="number font-poppins fw-semibold text-md lh-42 text-white">3.5%</h2>
+                            </div>
+                            <div class="parent">
+                                <p class="font-poppins fw-normal text-very-small lh-25 text-white">When Selling</p>
+                                <h2 class="number font-poppins fw-semibold text-md lh-42 text-white">3.5%</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 mb-4 mx-auto">
+                    <div class="card-2">
+                        <p class="font-poppins fw-normal text-base lh-33 text-white">Rewards</p>
+                        <div class="d-flex mt-3 justify-content-between">
+                            <div class="parent">
+                                <p class="font-poppins fw-normal text-very-small lh-25 text-white">When Buying</p>
+                                <h2 class="number font-poppins fw-semibold text-md lh-42 text-white">3.5%</h2>
+                            </div>
+                            <div class="parent">
+                                <p class="font-poppins fw-normal text-very-small lh-25 text-white">When Selling</p>
+                                <h2 class="number font-poppins fw-semibold text-md lh-42 text-white">3.5%</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+
+            ;lk jhgfcxdz
+            <div class="image-parent position-relative padding-60">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-4 mb-4 mb-lg-0">
+                        <img src="/image/png/Group-img.png" alt="Group-img" class="w-100">
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 mb-4 mb-lg-0">
+                        <div class="d-flex align-items-center justify-content-center">
+                            <div class="box-2">
+                            </div>
+                            <p class="font-poppins fw-semibold text-sm lh-32 text-white pl-25 pt-19">Sed sem</p>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <div class="box-2 bg-royal-flycatcher">
+                            </div>
+                            <p class="font-poppins fw-semibold text-sm lh-32 text-white pl-25 pt-19">Sed sem</p>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <div class="box-2 bg-purple">
+                            </div>
+                            <p class="font-poppins fw-semibold text-sm lh-32 text-white pl-25 pt-19">Sed sem</p>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <div class="box-2 bg-blue">
+                            </div>
+                            <p class="font-poppins fw-semibold text-sm lh-32 text-white pl-25 pt-19">Sed sem</p>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <div class="box-2 bg-yellow">
+                            </div>
+                            <p class="font-poppins fw-semibold text-sm lh-32 text-white pl-25 pt-19">Sed sem</p>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center">
+                            <div class="box-2 bg-neon">
+                            </div>
+                            <p class="font-poppins fw-semibold text-sm lh-32 text-white pl-25 pt-19">Sed sem</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 mb-4 mb-lg-0">
+                        <div class="card-3">
+                            <img class="w-100" src="/image/png/section-3.png" alt="frame">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tablebox position-relative">
+                <div class="overflowAuto">
+                    <table class="table-1 position-relative">
+                        <thead class="w-100">
+                            <tr class="text-center">
+                                <th class="data bg-black-wash"></th>
+                                <th
+                                    class="font-poppins fw-semibold text-sm lh-32 text-white p-15 white-nowrap bg-black-wash">
+                                    Token</th>
+                                <th
+                                    class="font-poppins fw-semibold text-sm lh-32 text-white p-15 white-nowrap bg-black-wash">
+                                    Percentage</th>
+                                <th
+                                    class="font-poppins fw-semibold text-sm lh-32 text-white p-15 white-nowrap bg-black-wash">
+                                    Token Price</th>
+                                <th
+                                    class="font-poppins fw-semibold text-sm lh-32 text-white p-15 white-nowrap bg-black-wash">
+                                    Token Price</th>
+                                <th
+                                    class="font-poppins fw-semibold text-sm lh-32 text-white p-15 white-nowrap bg-black-wash">
+                                    Total Amount</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="table-row text-center">
+                                <td class="font-poppins fw-normal text-sm lh-32 text-white p-17">Seddigq</td>
+                                <td class="font-poppins fw-normal text-sm lh-32 text-white opacity-70 p-15">1,00,000
+                                </td>
+                                <td class="font-poppins fw-normal text-sm lh-32 text-white opacity-70 p-15">12%</td>
+                                <td class="font-poppins fw-normal text-sm lh-32 text-white opacity-70 p-15">58.3</td>
+                                <td class="font-poppins fw-normal text-sm lh-32 text-white opacity-70 p-15">12%</td>
+                                <td class="font-poppins fw-normal text-sm lh-32 text-white opacity-70 p-15">10% Monthly
+                                </td>
+                            </tr>
+                            <tr class="table-row text-center ">
+                                <td class="font-poppins fw-normal text-sm lh-32 text-white p-17">Seddigq</td>
+                                <td class="font-poppins fw-normal text-sm lh-32 text-white opacity-70 p-15">1,00,000
+                                </td>
+                                <td class="font-poppins fw-normal text-sm lh-32 text-white opacity-70 p-15">12%</td>
+                                <td class="font-poppins fw-normal text-sm lh-32 text-white opacity-70 p-15">58.3</td>
+                                <td class="font-poppins fw-normal text-sm lh-32 text-white opacity-70 p-15">12%</td>
+                                <td class="font-poppins fw-normal text-sm lh-32 text-white opacity-70 p-15">10% Monthly
+                                </td>
+                            </tr>
+                            <tr class="table-row text-center">
+                                <td class="font-poppins fw-normal text-sm lh-32 text-white p-17">Seddigq</td>
+                                <td class="font-poppins fw-normal text-sm lh-32 text-white opacity-70 p-15">1,00,000
+                                </td>
+                                <td class="font-poppins fw-normal text-sm lh-32 text-white opacity-70 p-15">12%</td>
+                                <td class="font-poppins fw-normal text-sm lh-32 text-white opacity-70 p-15">58.3</td>
+                                <td class="font-poppins fw-normal text-sm lh-32 text-white opacity-70 p-15">12%</td>
+                                <td class="font-poppins fw-normal text-sm lh-32 text-white opacity-70 p-15">10% Monthly
+                                </td>
+                            </tr>
+                            <tr class="table-row text-center">
+                                <td class="font-poppins fw-normal text-sm lh-32 text-white p-17">Seddigq</td>
+                                <td class="font-poppins fw-normal text-sm lh-32 text-white opacity-70 p-15">1,00,000
+                                </td>
+                                <td class="font-poppins fw-normal text-sm lh-32 text-white opacity-70 p-15">12%</td>
+                                <td class="font-poppins fw-normal text-sm lh-32 text-white opacity-70 p-15">58.3</td>
+                                <td class="font-poppins fw-normal text-sm lh-32 text-white opacity-70 p-15">12%</td>
+                                <td class="font-poppins fw-normal text-sm lh-32 text-white opacity-70 p-15">10% Monthly
+                                </td>
+                            </tr>
+                            <tr class="table-row text-center">
+                                <td class="font-poppins fw-normal text-sm lh-32 text-white p-17">Seddigq</td>
+                                <td class="font-poppins fw-normal text-sm lh-32 text-white opacity-70 p -15">1,00,000
+                                </td>
+                                <td class="font-poppins fw-normal text-sm lh-32 text-white opacity-70 p-15">12%</td>
+                                <td class="font-poppins fw-normal text-sm lh-32 text-white opacity-70 p-15">58.3</td>
+                                <td class="font-poppins fw-normal text-sm lh-32 text-white opacity-70 p-15">12%</td>
+                                <td class="font-poppins fw-normal text-sm lh-32 text-white opacity-70 p-15">10% Monthly
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+    <section class="position-relative">
+        <div class="container max-w-1320">
+            <div class="d-flex justify-content-center align-items-center">
+                <h1 class="font-poppins fw-semibold text-xl lh-61 text-center text-white mt-59">Roadmap</h1>
+            </div>
+            <div class="roadmap position-relative">
+                <div class="content-box left">
+                    <div class="content position-relative text-end mx-547">
+                        <h3 class="font-poppins fw-semibold text-lg lh-54 text-start text-sm-end text-white">Phase-1
+                        </h3>
+                        <p
+                            class="font-poppins fw-normal text-sm lh-32 text-start text-sm-end max-w- 547 text-white opacity-70">
+                            Massa pellentesque sagittis <br> Aliquam sed in odio. <br> Turpis blandit at interdum <br>
+                            Eget tempus nulla tempus arcu</p>
+                    </div>
+                </div>
+                <div class="content-box right">
+                    <div class="content position-relative ">
+                        <h3 class="font-poppins fw-semibold text-lg lh-54 text-start text-white">Phase-2</h3>
+                        <p class="font-poppins fw-normal text-sm lh-32 text-start max- w-547 text-white opacity-70">
+                            Massa pellentesque sagittis <br> Aliquam sed in odio. <br> Turpis blandit at interdum <br>
+                            Eget tempus nulla tempus arcu</p>
+                    </div>
+                </div>
+                <div class="content-box left">
+                    <div class="content position-relative text-end mx-547">
+                        <h3 class="font-poppins fw-semibold text-lg lh-54 text-start text-sm-end text-white">Phase-3
+                        </h3>
+                        <p
+                            class="font-poppins fw-normal text-sm lh-32 text-start text-sm-end max-w -547 text-white opacity-70">
+                            Massa pellentesque sagittis <br> Aliquam sed in odio. <br> Turpis blandit at interdum <br>
+                            Eget tempus nulla tempus arcu</p>
+                    </div>
+                </div>
+                <div class="content-box right">
+                    <div class="content position-relative ">
+                        <h3 class="font-poppins fw-semibold text-lg lh-54 text-start text-white">Phase-4</h3>
+                        <p class="font-poppins fw-normal text-sm lh-32 text-start max-w -547 text-white opacity-70">
+                            Massa pellentesque sagittis <br> Aliquam sed in odio. <br> Turpis blandit at interdum <br>
+                            Eget tempus nulla tempus arcu</p>
+                    </div>
+                </div>
+            </div>
+            <img class="roadmap-left-img" src="/image/svg/roadmap-left.svg" alt="roadmap-left-img">
+            <img class="roadmap-right-img" src="/image/svg/roadmap-right.svg" alt="roadmap-right-img">
+        </div>
+    </section>
+
+    <footer class="faq position-relative">
+        <div class="container mb-440">
+            <h2 class="font-poppins fw-semilbold text-xl lh-61 text-center text-white mb-32 mt-73">FAQ</h2>
+            <div class="accordion accordion-flush " id="accordionFlushExample">
+                <div class="accordion-item box-3">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            <span class="font-poppins fw-semilbold text-base lh-33 text-white">Volutpat
+                                consequat dictumst vel donec.</span>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body font-poppins fw-normal text-sm lh-32 text-white opacity-70">
+                            Amet vitae hendrerit facilisi gravida. Nascetur sed luctus sit elit in mi orci. Aliquet
+                            ullamcorper quis felis at scelerisque non faucibus. Amet vitae hendrerit facilisi gravida.
+                            Nascetur sed luctus sit elit in mi orci. Aliquet ullamcorper quis felis at scelerisque non
+                            faucibus.Amet vitae hendrerit facilisi gravida. Nascetur sed luctus sit elit in mi orci.
+                            Aliquet ullamcorper quis felis at scelerisque non faucibus.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item box-3">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            <span class="font-poppins fw-semilbold text-base lh-33 text-white">Volutpat
+                                consequat dictumst vel donec..</span>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body font-poppins fw-normal text-sm lh-32 text-white opacity-70">
+                            Amet vitae hendrerit facilisi gravida. Nascetur sed luctus sit elit in mi orci. Aliquet
+                            ullamcorper quis felis at scelerisque non faucibus. Amet vitae hendrerit facilisi gravida.
+                            Nascetur sed luctus sit elit in mi orci. Aliquet ullamcorper quis felis at scelerisque non
+                            faucibus.Amet vitae hendrerit facilisi gravida. Nascetur sed luctus sit elit in mi orci.
+                            Aliquet ullamcorper quis felis at scelerisque non faucibus.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item box-3">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            <span class="font-poppins fw-semilbold text-base lh-33 text-white">Volutpat
+                                consequat dictumst vel donec.</span>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body font-poppins fw-normal text-sm lh-32 text-white opacity-70">
+                            Amet vitae hendrerit facilisi gravida. Nascetur sed luctus sit elit in mi orci. Aliquet
+                            ullamcorper quis felis at scelerisque non faucibus. Amet vitae hendrerit facilisi gravida.
+                            Nascetur sed luctus sit elit in mi orci. Aliquet ullamcorper quis felis at scelerisque non
+                            faucibus.Amet vitae hendrerit facilisi gravida. Nascetur sed luctus sit elit in mi orci.
+                            Aliquet ullamcorper quis felis at scelerisque non faucibus.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item box-3">
+                    <h2 class="accordion-header" id="flush-headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFour" aria-expanded="false"
+                            aria-controls="flush-collapseFour">
+                            <span class="font-poppins fw-semilbold text-base lh-33 text-white">Volutpat
+                                consequat dictumst vel donec.</span>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body font-poppins fw-normal text-sm lh-32 text-white opacity-70">
+                            Amet vitae hendrerit facilisi gravida. Nascetur sed luctus sit elit in mi orci. Aliquet
+                            ullamcorper quis felis at scelerisque non faucibus. Amet vitae hendrerit facilisi gravida.
+                            Nascetur sed luctus sit elit in mi orci. Aliquet ullamcorper quis felis at scelerisque non
+                            faucibus.Amet vitae hendrerit facilisi gravida. Nascetur sed luctus sit elit in mi orci.
+                            Aliquet ullamcorper quis felis at scelerisque non faucibus.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item box-3">
+                    <h2 class="accordion-header" id="flush-headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFive" aria-expanded="false"
+                            aria-controls="flush-collapseFive">
+                            <span class="font-poppins fw-semilbold text-base lh-33 text-white">Volutpat
+                                consequat dictumst vel donec.</span>
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body font-poppins fw-normal text-sm lh-32 text-white opacity-70">
+                            Amet vitae hendrerit facilisi gravida. Nascetur sed luctus sit elit in mi orci. Aliquet
+                            ullamcorper quis felis at scelerisque non faucibus. Amet vitae hendrerit facilisi gravida.
+                            Nascetur sed luctus sit elit in mi orci. Aliquet ullamcorper quis felis at scelerisque non
+                            faucibus.Amet vitae hendrerit facilisi gravida. Nascetur sed luctus sit elit in mi orci.
+                            Aliquet ullamcorper quis felis at scelerisque non faucibus.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img class="accordion-right-img position-absolute" src="/image/svg/accordion-right.svg"
+                alt="accordion-right-img">
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-    <script>
-        const navbarbtn = () => {
-            document.getElementById("name").classList.toggle("show-navbar")
-            document.getElementById("rotates").classList.toggle("rotate40")
-            document.getElementById("transparent").classList.toggle("bg-transparent")
-            document.getElementById("rotates2").classList.toggle("rotate-45")
-            document.body.classList.toggle("overflow-hidden")
-        }
-    </script>
+    <script src="./assets/js/app.js"></script>
 </body>
 
 </html>

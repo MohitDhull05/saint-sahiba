@@ -1,35 +1,51 @@
 :root {
-    /***** font-family *****/
-    --font-family-primary: "Poppins", serif;
-    /****** color  ******/
-    --color-white: white;
+    --font-poppins: "Poppins", sans-serif;
     /***** font-size *****/
-    --text-extra-small: 14px;
+    --text-very-small: 14px;
     --text-sm: 18px;
     --text-base: 22px;
     --text-md: 28px;
     --text-lg: 36px;
     --text-xl: 48px;
     --text-2xl: 96px;
+    /***** line-height *****/
+    --lh-25: 25.2px;
+    --lh-32: 32.4px;
+    --lh-33: 33px;
+    --lh-42: 42px;
+    --lh-54: 54px;
+    --lh-61: 61.44px;
+    --lh-95: 95.52px;
+    /***** color *****/
+    --color-black: #000000BF;
+    --bg-raven: #0C0B0B;
+    --bg-black-wash: #0C0C0C;
+    --bg-kettle-black: #151313;
+    --bg-siyah-black: #1D1A1A;
+    --color-white: white;
+    --color-royal-flycatcher-crest: #F06500;
+    --bg-aqua-green: #00E396;
+    --bg-thick-purple: #8B35E2;
+    --color-chrome-yellow: #FFA800;
+    --bg-krishna-blue: #00B2FF;
+    --bg-neon-fuchsia: #FF4560;
 }
 
-.font-family-primary {
-    font-family: var(--font-family-primary);
+/***** font-family *****/
+.font-poppins {
+    font-family: var(--font-poppins);
 }
 
-.color-white {
-    color: var(--color-white);
-}
-
-.text-extra-small{
-    font-size: var(--text-extra-small);
+/***** font-size *****/
+.text-very-small {
+    font-size: var(--text-very-small);
 }
 
 .text-sm {
     font-size: var(--text-sm);
 }
 
-.text-base{
+.text-base {
     font-size: var(--text-base);
 }
 
@@ -41,10 +57,73 @@
     font-size: var(--text-lg);
 }
 
-.text-xl{
+.text-xl {
     font-size: var(--text-xl);
 }
 
 .text-2xl {
     font-size: var(--text-2xl);
+}
+
+/***** line-height *****/
+
+.lh-25 {
+    line-height: var(--lh-25);
+}
+
+.lh-32 {
+    line-height: var(--lh-32);
+}
+
+.lh-33 {
+    line-height: var(--lh-33);
+}
+
+.lh-42 {
+    line-height: var(--lh-42);
+}
+
+.lh-54 {
+    line-height: var(--lh-54);
+}
+
+.lh-61 {
+    line-height: var(--lh-61);
+}
+
+.lh-95 {
+    line-height: var(--lh-95);
+}
+
+/***** color *****/
+.color-black {
+    color: var(--color-black);
+}
+
+.bg-raven {
+    background-color: var(--bg-raven);
+}
+
+.bg-siyah-black {
+    background-color: var(--bg-siyah-black);
+}
+
+.color-royal-flycatcher-crest {
+    color: var(--color-royal-flycatcher-crest) !important;
+}
+
+@media (max-width:767.98px) {
+    :root {
+        --text-2xl: 58px;
+        --lh-95: normal;
+    }
+}
+
+@media (max-width:575.98px) {
+    :root {
+        --text-2xl: 48px;
+        --lh-95: 50px;
+        --text-xl: 40px;
+        --lh-61: normal;
+    }
 }
