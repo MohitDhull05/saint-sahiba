@@ -337,6 +337,10 @@
     mask-composite: exclude;
 }
 
+.text-center{
+    text-align: center;
+}
+
 .roadmap::after {
     content: '';
     position: absolute;
@@ -388,13 +392,13 @@
     z-index: -1;
 }
 
-.roadmap-right-img {
+/* .roadmap-right-img {
     position: absolute;
     top: -20% !important;
     right: 0;
     object-fit: cover;
     z-index: -1;
-}
+} */
 
 .faq .accordion {
     --bs-accordion-btn-focus-box-shadow: none !important;
@@ -404,7 +408,7 @@
 }
 
 .faq .accordion-button {
-    margin: 24px 0px 17px 0px !important;
+    /* margin: 24px 0px 17px 0px !important; */
     padding: 16px 22px 16px 16px !important;
     background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%) !important;
     backdrop-filter: blur(32px) !important;
@@ -416,6 +420,8 @@
 
 .faq .accordion-body {
     padding: 0px 16px 16px 16px !important;
+    background: linear-gradient(94.88deg, rgba(255, 255, 255, 0.05) 0.97%, rgba(255, 255, 255, 0) 103.14%) !important;
+    backdrop-filter: blur(32px) !important;
 }
 
 .faq .accordion-item {
@@ -432,14 +438,14 @@
 }
 
 .faq .accordion-button:not(.collapsed)::after {
-    background-image: url(../image/svg/arrow-2-svg.svg);
+    background-image: url(/image/svg/arrow-2.svg);
     background-position: center;
     background-size: contain;
     transform: rotate(0deg) !important;
 }
 
 .faq .accordion-button::after {
-    background-image: url(../image/svg/arrow-img.svg);
+    background-image: url(/image/svg/arrow-img.svg);
     background-position: center;
     background-size: contain;
 }
@@ -486,7 +492,7 @@
 
     .nav-bg-blur {
         background: var(--color-black) !important;
-        backdrop-filter: blur(16px) !important;
+        /* backdrop-filter: blur(16px) !important; */
     }
 
     .box {
